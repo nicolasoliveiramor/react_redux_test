@@ -20,7 +20,7 @@ export function renderizaComProvider(
   }: ExtendedRenderOptions = {}
 ) {
   // eslint-disable-next-line @typescript-eslint/ban-types
-  function Encapsulador({ children }: PropsWithChildren<{}>): JSX.Element {
+  function Encapsulador({ children }: PropsWithChildren): JSX.Element {
     return <Provider store={store}>{children}</Provider>
   }
 

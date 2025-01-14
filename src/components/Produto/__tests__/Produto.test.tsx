@@ -1,6 +1,6 @@
 import { screen, fireEvent } from '@testing-library/react'
 
-import Produto from '..'
+import Produto from '../'
 import { renderizaComProvider } from '../../../utils/tests'
 
 const jogo = {
